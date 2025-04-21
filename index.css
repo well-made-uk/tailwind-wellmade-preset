@@ -1,0 +1,26 @@
+/* index.css - Generic Well-Made ecosystem styles for Tailwind projects */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-highlight no-underline transition-colors duration-200 underline underline-offset-2;
+  }
+  a:hover, a:focus {
+    @apply text-highlight-dark bg-transparent;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block rounded px-4 py-2 text-sm border border-highlight text-highlight font-medium bg-transparent hover:bg-highlight hover:text-white transition-colors duration-200 shadow-sm;
+  }
+  .card {
+    @apply bg-[#f5f5ff] border border-highlight p-6 rounded-lg mt-4;
+  }
+  .section {
+    @apply p-8 rounded-2xl bg-white mb-8 overflow-hidden shadow-md;
+  }
+}
