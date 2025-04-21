@@ -40,57 +40,57 @@
 @layer components {
 
   .btn {
-    @apply inline-block rounded px-4 py-2 text-sm border border-highlight text-highlight font-medium bg-transparent hover:bg-highlight hover:text-white transition-colors duration-200 shadow-sm;
+    @apply inline-block rounded px-4 py-1 text-sm border border-highlight text-highlight font-medium bg-transparent hover:bg-highlight hover:text-white transition-colors duration-200 shadow-sm;
   }
-  
+
   .card {
     @apply bg-[#f5f5ff] border border-highlight p-6 rounded-lg mt-4;
   }
 
   .section {
-      @apply p-8 rounded-2xl bg-white mb-8 overflow-hidden shadow-md;
+    @apply p-8 rounded-2xl bg-white mb-8 overflow-hidden shadow-md;
   }
 
   .tags {
-      @apply flex gap-2 mb-4 flex-wrap;
+    @apply flex gap-2 mb-4 flex-wrap;
   }
 
   .tags span {
-      @apply inline-block bg-[#f5f5ff] text-highlight rounded px-2 py-1 text-sm;
+    @apply inline-block bg-[#f5f5ff] text-highlight rounded px-2 py-1 text-sm;
   }
 
   .skill-level {
-      @apply inline-block px-3 py-1 rounded text-sm font-medium bg-[#f5f5ff] text-highlight;
+    @apply inline-block px-3 py-1 rounded text-sm font-medium bg-[#f5f5ff] text-highlight;
   }
 
   .section-heading {
-      font-family: "Andale Mono", monospace;
-      @apply uppercase text-sm tracking-wider py-4 pb-2 text-highlight;
+    font-family: "Andale Mono", monospace;
+    @apply uppercase text-sm tracking-wider py-4 pb-2 text-highlight;
   }
 
   .cert-image {
-      @apply w-5 h-5 object-contain rounded;
+    @apply w-5 h-5 object-contain rounded;
   }
 
   .timeline-dot {
-      @apply mt-1 rounded-full h-3 w-3 bg-white border-2 z-10 relative;
-      left: 1.5px;
+    @apply mt-1 rounded-full h-3 w-3 bg-white border-2 z-10 relative;
+    left: 1.5px;
   }
 
   .timeline-line {
-      @apply absolute top-4 w-0.5 left-[0.4rem] h-[calc(100%+0.5rem)];
+    @apply absolute top-4 w-0.5 left-[0.4rem] h-[calc(100%+0.5rem)];
   }
 
   .work-event {
-      @apply flex mb-4;
+    @apply flex mb-4;
   }
 
   .work-event-content {
-      @apply pl-3;
+    @apply pl-3;
   }
 
   .work-event-date {
-      @apply text-gray-600 text-sm;
+    @apply text-gray-600 text-sm;
   }
 
   .retainer-offer {
