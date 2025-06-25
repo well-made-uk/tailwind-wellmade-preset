@@ -43,12 +43,16 @@
     @apply inline-block rounded px-4 py-1 text-sm border border-highlight text-highlight font-medium bg-transparent hover:bg-highlight hover:text-white transition-colors duration-200 shadow-sm;
   }
 
+  .btn-tight {
+    @apply inline-block rounded px-2 py-1 text-sm border border-highlight text-highlight font-medium bg-transparent hover:bg-highlight hover:text-white transition-colors duration-200 shadow-sm;
+  }
+
   .btn-solid {
-    @apply bg-[#646cff] text-white font-bold rounded px-4 py-2 text-sm transition-colors duration-150 hover:bg-[#4b50c9] focus:outline-none focus:ring-2 focus:ring-[#646cff] min-w-0 whitespace-nowrap inline-block;
+    @apply bg-[#646cff] text-white rounded px-4 py-1 text-sm transition-colors duration-150 hover:bg-[#4b50c9] focus:outline-none focus:ring-2 focus:ring-[#646cff] min-w-0 whitespace-nowrap inline-block hover:text-white;
   }
 
   .btn-solid-tight {
-    @apply bg-[#646cff] text-white font-bold rounded px-2 py-2 text-sm transition-colors duration-150 hover:bg-[#4b50c9] focus:outline-none focus:ring-2 focus:ring-[#646cff] min-w-0 whitespace-nowrap inline-block;
+    @apply bg-[#646cff] text-white rounded px-1 py-1 text-sm transition-colors duration-150 hover:bg-[#4b50c9] focus:outline-none focus:ring-2 focus:ring-[#646cff] min-w-0 whitespace-nowrap inline-block hover:text-white;
   }
 
   .card {
