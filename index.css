@@ -109,38 +109,6 @@
       @apply bg-[#f5f5ff] border border-highlight p-6 rounded-lg mt-4;
   }
 
-  .skills-grid {
-      @apply grid gap-8;
-  }
-
-  .skills-category {
-      @apply space-y-4;
-  }
-
-  .skills-category-title {
-      @apply uppercase text-sm tracking-wider text-highlight font-mono;
-  }
-
-  .skill-item {
-      @apply flex items-center justify-between gap-4 py-2;
-  }
-
-  .skill-name {
-      @apply font-medium;
-  }
-
-  .skill-level {
-      @apply inline-block px-3 py-1 rounded text-sm font-medium bg-[#f5f5ff] text-highlight whitespace-nowrap;
-  }
-
-  .skill-certs {
-      @apply flex gap-2 items-center;
-  }
-
-  .cert-image {
-      @apply w-5 h-5 object-contain rounded opacity-90 hover:opacity-100 transition-opacity;
-  }
-
   .contact-button {
       @apply inline-block rounded px-2 py-1 text-sm border border-highlight text-highlight font-medium 
              hover:bg-[#7a81ff] hover:text-white transition-colors duration-200 shadow-sm;
@@ -149,42 +117,10 @@
 
 @media (prefers-color-scheme: dark) {
   body {
-      @apply bg-[#242424] text-white/90;
+      @apply bg-[#1a1a1a] text-white/90;
   }
 
-  .section {
-      @apply bg-[#1a1a1a] !important;
-  }
-
-  .tags span {
-      @apply bg-highlight text-white !important;
-  }
-
-  .skill-level {
-      @apply bg-highlight text-white !important;
-  }
-
-  .timeline-dot {
-      @apply bg-[#1a1a1a] !important;
-  }
-
-  td {
-      border-bottom-color: rgba(255, 255, 255, 0.1) !important;
-  }
-
-  .work-event-date {
-      @apply text-gray-400 !important;
-  }
-
-  .retainer-offer {
-      @apply bg-[#2a2a2a] border-highlight;
-  }
-
-  .skill-level {
-      @apply bg-highlight text-white !important;
-  }
-
-  .cert-image {
-      @apply opacity-75 hover:opacity-100;
+  .section, .card {
+      @apply text-black/90;
   }
 }
