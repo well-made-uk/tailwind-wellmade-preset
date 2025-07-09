@@ -1,5 +1,5 @@
 // tailwind.preset.js
-module.exports = {
+export default {
   theme: {
     extend: {
       colors: {
@@ -7,7 +7,7 @@ module.exports = {
         'highlight-dark': '#3a3c6b',
       },
       borderRadius: {
-        ecosystem: '1.25rem', // Example custom radius
+        ecosystem: '1.25rem',
       },
     },
   },
