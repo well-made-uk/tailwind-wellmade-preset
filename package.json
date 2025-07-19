@@ -1,6 +1,6 @@
 {
   "name": "wellmade-tailwind-preset",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Reusable Tailwind CSS preset for the Well-Made ecosystem (colors, radii, generic components)",
   "main": "tailwind.preset.js",
   "type": "module",
